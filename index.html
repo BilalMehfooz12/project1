@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+     <div class="">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color:gray;">
+    <div class="container-fluid">
+      <a class="navbar-brand me-5" href="#"><img src="./logo.png"/></a>
+      <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ms-2" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+          <li class="nav-item">
+            <a class="nav-link active text-light ms-5" id="nav1" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" id="nav1" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Places To Visit
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="nav1">
+              <li><a class="dropdown-item" href="https://umars-be801.web.app/resturants.html">Restaurants</a></li>
+              <li><a class="dropdown-item" href="https://umars-be801.web.app/attractions.html">Attractions</a></li>
+              </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#" id="nav1">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#" id="nav1">Booking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#" id="nav1">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#" id="nav1">Contact Us</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" id="nav1" href="#" id="navbarDropdown" role="button"  data-bs-toggle="dropdown" aria-expanded="false">
+                  Members Area 
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://umars-be801.web.app/login.html">Log-in</a></li>
+                  <li><a class="dropdown-item" href="https://umars-be801.web.app/signup.html">Sign-up</a></li>
+                 </ul>
+              </li>
+        </ul>
+        <form class="d-flex">
+            <i class="fas fa-search text-light me-2" style="font-size:33px;" ></i><input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="carousel slide" id="first" data-bs-ride="carousel">
+       <div class="carousel-indicators">
+         <button class="active" data-bs-target="#first" data-bs-slide-to="0">0</button>
+         <button data-bs-target="#first" data-bs-slide-to="1">1</button>
+         <button data-bs-target="#first" data-bs-slide-to="2">2</button>
+       </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Slide1.jpg" style="height: 500px; background-size: cover; width: 100%;">
+            <div class="carousel-caption">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Slide2.jpg" style="height: 500px; background-size: cover; width: 100%;">
+            <div class="carousel-caption">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Slide3.jpg" style="height: 500px; background-size: cover; width: 100%;">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-control-prev" data-bs-target="#first" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon"></span>
+        </div>
+         <div class="carousel-control-next" data-bs-target="#first" data-bs-slide="next">
+           <span class="carousel-control-next-icon"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+
+
+
+
+
+  <div style="border-top:5px solid yellow;"class="bg-dark">
+  <div>
+  <div class="mt-3 text-warning" style="text-align: center;">
+    <h1>Restaurant</h1>
+    <p class="col-lg-12 col-md-12 col-sm-10 col-10" style="color: white; word-spacing: 10px;">Marciado Amusement Park Has The Best Resturant For You</p>
+  </div>
+  <hr class="w-50 m-auto" style="color: yellow;">
+</div>
+
+
+
+
+
+<div class="row ">
+  <div class="col-lg-4 col-md-4 col-sm-10 col-10 mt-4 text-warning" >
+    <h1 class="ms-5"> Bar B-Que Killa</h1>
+    <div class="ms-4 mt-3" style="width: 22rem;" id="nav2">
+      <div style="border: 2px solid yellow;"  class="col-lg-12 col-md-12 col-sm-10 col-10">
+      <img src="./bbq1.jpg" class="card-img-top " alt="..." style="border: 5px solid white;">
+      </div>
+      <div class="card-body">
+        <p class="card-text col-lg-12 col-md-12 col-sm-10 col-10" style="color: white; text-align: justify;">Some quick example text to build on the card title and make the bulk of the card's content.
+          Some quick example text Some quick example text to build on the card title and make up the bulk of the card's content. 
+          to build on the card title and make up the bulk of the card's content. to build on the card title and make up the
+           bulk of the card's content. to build on the card title and make up the bulk of the card's content!
+        </p>
+        <div class="col-lg-12 col-md-12 col-sm-10 col-10">
+        <a href="#" id="pic_1" class="btn btn-warning w-100 m-auto">View Picture</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-10 col-sm-10 col-10 mt-4 text-warning">
+    <h1 class="ms-5">Chopstick Ninja</h1>
+    <div class="ms-4 mt-3" style="width: 22rem;" id="nav2">
+      <div style="border: 2px solid yellow;"  class="col-lg-12 col-md-12 col-sm-10 col-10">
+      <img src="./bbq2.jpg" class="card-img-top" alt="..." style="border: 5px solid white;">
+      </div>
+      <div class="card-body">
+        <p class="card-text col-lg-12 col-md-12 col-sm-10 col-10" style="color: white; text-align: justify;">Some quick example text to build on the card title and make up the bulk of the card's content.
+          Some quick example text Some quick example text to build on the card title and make up the bulk of the card's content. 
+          to build on the card title and make up te bulk of the card's content. text to build on the card title and make up the bulk of the card's content. 
+          to build on the card title and make up the bulk of the make
+        </p>
+        <div class="col-lg-12 col-md-12 col-sm-10 col-10">
+        <a href="#" id="pic_1" class="btn btn-warning w-100 m-auto">View Picture</a>
+        </div>
+      </div>
+    </div>
+  
+    
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-10 col-10 mt-4 text-warning">
+    <h1 class="ms-5">Food O'Clock</h1>
+    <div class="ms-4 mt-3" style="width: 22rem;" id="nav2">
+      <div style="border: 2px solid yellow;" class="col-lg-12 col-md-12 col-sm-10 col-10">
+      <img src="./bbg3.jpg" class="card-img-top" alt="..." style="border: 5px solid white;">
+      </div>
+      <div class="card-body">
+        <p class="card-text col-lg-12 col-md-12 col-sm-10 col-10" style="color: white; text-align: justify;">Some quick example text to build on the card title and make up the bulk of the card's content.
+          Some quick example text Some quick example text to build on the card title and make up the bulk of the card's content. 
+          to build on the card title and make Some quick example Some quick example text to build on the card title and make up
+           the bulk of the card's content. 
+          to build on card's conte up the bulk of the card's content.!
+        </p>
+        <div class="col-lg-12 col-md-12 col-sm-10 col-10">
+        <a href="#" id="pic_1" class="btn btn-warning w-100 m-auto">View Picture</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div style="border-top:2px solid yellow;"> </div>
+<!-- Background -->
+
+<div class="back">
+  <div style="text-align: center;">
+  <i class="fas fa-star mt-4" style= "color: yellow;"></i>
+  <i class="fas fa-star mt-4" style= "color: yellow;"></i>
+  <i class="fas fa-star mt-4" style= "color: yellow;"></i>
+</div>
+  <h1 style="text-align: center; color: yellow;">Attraction</h1>
+  <div style="text-align: center;">
+    <i class="fas fa-star" style= "color: yellow;"></i>
+    <i class="fas fa-star" style= "color: yellow;"></i>
+    <i class="fas fa-star" style= "color: yellow;"></i>
+  </div>
+<div class="row">
+  <div class="col-lg-3 mt-5">
+    <div class="card" style="width:13rem; margin-left:5rem;">
+      <div style="border: 2px solid yellow;" >
+      <img src="./b1.jpg" class="card-img-top" alt="..." style="border: 2px solid white;">
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 mt-5">
+    <div class="card" style="width: 13rem;margin-left:5rem;">
+      <div style="border: 2px solid yellow;" >
+      <img src="./b2.jpg" class="card-img-top" alt="..." style="border: 2px solid white;">
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 mt-5">
+    <div class="card" style="width: 13rem;margin-left:5rem;">
+      <div style="border: 2px solid yellow;" >
+      <img src="./b3.jpg" class="card-img-top" alt="..." style="border: 2px solid white;">
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 mt-5">
+    <div class="card" style="width: 13rem;margin-left:5rem;">
+      <div style="border: 2px solid yellow;" >
+      <img src="./b4.jpg" class="card-img-top" alt="..." style="border: 2px solid white;">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="row">
+  <div class="col-lg-3 mt-3">
+    <div class="card" style="width: 13rem;  margin-left: 5rem;">
+      <div style="border: 2px solid yellow;" >
+      <img src="./b5.jpg" class="card-img-top" alt="..." style="border: 2px solid white;">
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 mt-3">
+    <div class="card" style="width: 13rem; margin-left: 5rem;">
+      <div style="border: 2px solid yellow;" >
+      <img src="./b6.jpg" class="card-img-top" alt="..." style="border: 2px solid white;">
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 mt-3">
+    <div class="card" style="width: 13rem; margin-left: 5rem;">
+      <div style="border: 2px solid yellow;" >
+      <img src="./b7.jpg" class="card-img-top" alt="..." style="border: 2px solid white;">
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 mt-3">
+    <div class="card" style="width: 13rem; margin-left: 5rem;">
+      <div style="border: 2px solid yellow;" >
+      <img src="./b8.jpg" class="card-img-top" alt="..." style="border: 2px solid white;">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<a href="https://umars-be801.web.app/attractions.html" class="btn btn-warning w-100 m-auto mt-4 mb-5">View All Gallery</a>
+</div>
+</div>
+</div>
+<div style="border-top:2px solid" class="text-warning"> </div>
+
+<div class="bg-dark">
+  <div class="container justify-content-center">
+  <div class="row">
+    <div class="col">
+   
+      <h1 style="color: yellow; text-align: center; border: 3px solid; background: black; padding: 10px;" class="mt-5 mb-4 text-warning">
+        <div style="border:2px solid yellow;">Packages</div></h1>
+    </div>
+
+
+
+
+
+
+    <div class="row ms-1">
+      <div class="col  col-lg-3 col-md-3 col-sm-11 col-11">
+    <div class="col-lg-12 text-warning" style="background: black; border: 3px dashed">
+     <h1 class="mt-5 " style="color: yellow; text-align: center;">Merciado<br> Feast</h1>
+     <h3 style="color: yellow; text-align: center;">Now:$9.99</h3>
+     <h4  style="color: yellow; text-align: center;">was:$15</h4>
+     <p style="color: yellow; text-align: center;">2 Person<br>Have a Graet fun with Great <br> Deals <br>-Merciado <br>(The Price of nation)
+    </p>
+    <div style="border: 1px solid yellow;"></div>
+    <p style="color: yellow;" class="ms-3">*Rides(10 visits per Rides)<br>*Buffet(1 hour)<br>*Gaming pass (3 hour)<br>
+     *Free jet-Ski(30 min)<br>*Boating voucher<br>*EL-RANGO(1 Ride)
+    </p>
+    </div>
+    </div>
+
+
+    <div class="col  col-lg-3  col-md-3 col-sm-11 col-11">
+      <div class="col-lg-12 text-warning" style="background: black; border: 3px dashed">
+       <h1 class="mt-5 " style="color: yellow; text-align: center;">Merciado<br> Supreme</h1>
+       <h3 style="color: yellow; text-align: center;">Now:$9.99</h3>
+       <h4  style="color: yellow; text-align: center;">was:$15</h4>
+       <p style="color: yellow; text-align: center;">2 Person<br>Have a Graet fun with Great <br> Deals <br>-Merciado <br>(The Price of nation)
+      </p>
+      <div style="border: 1px solid yellow;"></div>
+      <p style="color: yellow;" class="ms-3">*Rides(10 visits per Rides)<br>*Buffet(1 hour)<br>*Gaming pass (3 hour)<br>
+       *Free jet-Ski(30 min)<br>*Boating voucher<br>*EL-RANGO(1 Ride)
+      </p>
+      </div>
+      </div>
+
+
+
+      <div class="col col-lg-3  col-md-3 col-sm-11 col-11">
+        <div class="col-lg-12 text-warning" style="background: black; border: 3px dashed">
+         <h1 class="mt-5 " style="color: yellow; text-align: center;">Merciado<br> Deluxe</h1>
+         <h3 style="color: yellow; text-align: center;">Now:$9.99</h3>
+         <h4  style="color: yellow; text-align: center;">was:$15</h4>
+         <p style="color: yellow; text-align: center;">2 Person<br>Have a Graet fun with Great <br> Deals <br>-Merciado <br>(The Price of nation)
+        </p>
+        <div style="border: 1px solid yellow;"></div>
+        <p style="color: yellow;" class="ms-3">*Rides(10 visits per Rides)<br>*Buffet(1 hour)<br>*Gaming pass (3 hour)<br>
+         *Free jet-Ski(30 min)<br>*Boating voucher<br>*EL-RANGO(1 Ride)
+        </p>
+        </div>
+        </div>
+
+
+        <div class="col col-lg-3  col-md-3 col-sm-11 col-11 mb-5">
+          <div class="col-lg-12 text-warning" style="background: black; border: 3px dashed">
+           <h1 class="mt-5 " style="color: yellow; text-align: center;">Merciado<br> Xtreme</h1>
+           <h3 style="color: yellow; text-align: center;">Now:$9.99</h3>
+           <h4  style="color: yellow; text-align: center;">was:$15</h4>
+           <p style="color: yellow; text-align: center;">2 Person<br>Have a Graet fun with Great <br> Deals <br>-Merciado <br>(The Price of nation)
+          </p>
+          <div style="border: 1px solid yellow;"></div>
+          <p style="color: yellow;" class="ms-3">*Rides(10 visits per Rides)<br>*Buffet(1 hour)<br>*Gaming pass (3 hour)<br>
+           *Free jet-Ski(30 min)<br>*Boating voucher<br>*EL-RANGO(1 Ride)
+          </p>
+          </div>
+          </div>
+          </div>
+         </div>
+        </div>
+        <div style="border: 2px solid"></div>
+      </div>  
+
+
+  </div>
+   
+
+
+
+
+ 
+
+
+  <div  style="background-color:rgba(149, 165, 166);">
+    <div class=" container justify-content-center">
+    <div class="row">
+      <div class="col">
+        <h1 style=" text-align: center; border: 3px solid; background: black; padding: 10px;" class="mt-5 mb-4 text-warning">
+          <div style="border: 4px solid" class="text-warning"></div></h1>
+          <h1 style=" text-align: center;" class="text-warning">Our Website Designer & Developer</h1>
+          <h1 style="text-align:center; border: 3px solid; background: black; padding: 10px;" class="mt-5 mb-4 text-warning">
+          <div style="border: 4px solid" class="text-warning"></div></h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-10 col-10 ms-4 mb-5">
+          <div style="text-align: center;">
+             <img  style="width: 15rem;;" src="./t.jpg" class="rounded-circle border border-warning"/>
+             <h1 class="text-warning">.......................</h1>
+             <h1 class="text-warning">Bilal Hussain</h1>
+             <h1 class="text-warning">.......................</h1>
+             <p style="text-align: justify; color: white;" class="mb-3">s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+               dummy text ever since the 1500s,
+               It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+               It was popularised in the 1960s with thding versions of Lorem Ipsum.</p>
+               <p style="text-align: justify; color: white;" class="mb-3">s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                dummy text ever since the 1500s,  
+                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                It was popularised in the 1960s with thding versions of Lorem Ipsum.</p>
+                <p style="text-align: justify; color: white;" class="mb-3">s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                  dummy text ever since the 1500s,
+                  It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                  It was popularised in the 1960s with thding versions of Lorem Ipsum.</p>
+  
+          </div>
+
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-10 col-10 ms-4 mb-5">
+          <div style="text-align: center;">
+          <img style="width: 15rem;;" src="./aliyan.jpg" class="rounded-circle border border-warning"/>
+          <h1 class="text-warning">.......................</h1>
+             <h1 class="text-warning">Aliyan Ali</h1>
+             <h1 class="text-warning">.......................</h1>
+             <p style="text-align: justify; color: white;" class="mb-3">s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+               dummy text ever since the 1500s,
+               It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+               It was popularised in the 1960s with thding versions of Lorem Ipsum.</p>
+               <p style="text-align: justify; color: white;" class="mb-3">s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                dummy text ever since the 1500s,  
+                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                It was popularised in the 1960s with thding versions of Lorem Ipsum.</p>
+                <p style="text-align: justify; color: white;" class="mb-3">s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                  dummy text ever since the 1500s,
+                  It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                  It was popularised in the 1960s with thding versions of Lorem Ipsum.</p>
+          </div>
+          </div>
+          <div style="border: 3px solid" class="text-warning"></div>
+      </div>
+
+     </div>
+     </div> 
+</div>
+<div class="bg-dark">
+  <div class="container">
+  <div class="row mb-5">
+    <div class="col-lg-9 col-md-9 col-sm-12 col-12 mt-5">
+      <h3 class="text-warning ms-3">Join  Merciado Newsletter & Stay Updated About Our New Deals</h3>
+  </div>
+  <div class="col-lg-3 mt-5">
+    <form class="d-flex">
+      <input class="form-control me-2 text-warning" type="search" placeholder="Enter Your Email" style="border: 2px solid"> 
+      <button class="btn btn-outline-warning" type="submit">Search</button>
+    </form>
+  </div>
+  </div>
+  <div style="border: 1px solid;" class="mb-5 text-warning"></div>
+  <div class="row mb-5">
+    <div class="col-lg-3">
+        <h2 class="text-warning ms-4">Learn More</h2>
+        <p style="color: white; margin-left: 3rem;"> About us <br> Contact us <br> Gallery</p>
+    </div>
+    <div class="col-lg-3">
+    
+      <h2 class="text-warning ms-2">Restaurants Inside</h2>
+      <p style="color: white; margin-left: 3rem;"> Bar-B-Que Killa <br> Chopstick Ninja <br> Food O'Clock</p>
+   
+    </div>
+    <div class="col-lg-3">
+      <h2 class="text-warning ms-4">Discounts</h2>
+      <p style="color: white; margin-left: 3rem;"> School Tips <br> Office Trips <br> Get Together</p>
+    </div>
+      <div class="col-lg-3">
+      <h2 class="text-warning ms-4">Our Partners</h2>
+      <p style="color: white; margin-left: 3rem;"> Seth Group. <br> X-Builders & Developers <br> Cyber Roullete</p>
+    </div>
+    
+  <div style="border: 1px solid;" class=" mb-5 mt-5 text-warning"></div>
+  <div class="row">
+    <div class="col-lg-9 text-warning mb-5">
+      <h2 class="ms-3">Get Connected</h2>
+    </div>
+    <div class="col-lg-3">
+      <i class="fab fa-facebook text-warning ms-3" style="font-size: 40px;"></i>
+      <i class="fab fa-instagram-square text-warning ms-2" style="font-size: 40px;"></i>
+      <i class="fab fa-invision text-warning ms-2" style="font-size: 40px;"></i>
+      <i class="fab fa-youtube-square text-warning ms-2" style="font-size: 40px;"></i>
+      <i class="fab fa-google-plus-square text-warning ms-2" style="font-size: 40px;"></i>  
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
